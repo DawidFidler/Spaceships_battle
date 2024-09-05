@@ -1,7 +1,6 @@
 import pygame
 import os
 
-
 WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("First Game!")   #Title of window
