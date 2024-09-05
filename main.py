@@ -115,7 +115,7 @@ def main():
     clock = pygame.time.Clock()
     run = True
     while run:
-        clock.tick(FPS)     # This will controll speed of our while loop
+        clock.tick(FPS)     # This will control speed of our while loop
         for event in pygame.event.get():    # standard thing
             if event.type == pygame.QUIT:
                 run = False
@@ -159,5 +159,4 @@ def main():
 
     pygame.quit()
 
-#if __name__ == "__main__":  #This way I run the game if I run the file directly
 main()
